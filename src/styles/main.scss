@@ -1,0 +1,57 @@
+// @import "./responsive.scss";
+
+main {
+  width: 80%;
+  margin: 30px auto;
+  @include laptop {
+    width: 70%;
+  }
+  @include tablet {
+    width: 90%;
+  }
+}
+.main-head {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+.main-container {
+  width: 100%;
+  height: 85%;
+  background: white;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  overflow-y: scroll;
+}
+
+.ant-tabs-nav-wrap {
+  width: 79% !important;
+  position: fixed !important;
+  background: white;
+  z-index: 99;
+  @include laptop {
+    width: 60% !important;
+  }
+  @include tablet {
+    width: 80% !important;
+  }
+}
+
+.ant-tabs-tab {
+  padding: 20px 60px !important;
+}
+
+.tab {
+  margin-top: 50px;
+  padding: 20px 30px;
+}
+
+.branch {
+  display: flex;
+  align-items: center;
+  .ant-avatar {
+    background: transparent;
+    color: #8c8c8c;
+  }
+}

@@ -1,0 +1,33 @@
+.list-item-container {
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid #bfbfbf;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+}
+.list-item_right {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 15px;
+}
+.list-item_left {
+  display: flex;
+  align-items: center;
+  width: 0;
+  transition: 0.3s;
+  .ant-avatar-image {
+    color: #fff;
+  }
+}
+
+.toggle-repo {
+  .list-item_left {
+    background: #00173d;
+    width: 35px;
+  }
+  // .list-item_right {
+  //   white-space: normal;
+  // }
+}

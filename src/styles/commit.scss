@@ -1,0 +1,25 @@
+.commit-container {
+  width: 70%;
+  height: 80vh;
+  margin: 50px auto;
+  background: white;
+  padding: 20px 50px;
+  overflow-y: scroll;
+  @include laptop {
+    width: 90%;
+  }
+  @include tablet {
+    padding: 10px 20px;
+  }
+
+  .commit-avatar-container {
+    margin-top: 20px !important;
+    font-weight: 500;
+  }
+}
+
+.commit-date {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 15px;
+}

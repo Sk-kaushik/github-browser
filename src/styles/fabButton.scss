@@ -1,0 +1,19 @@
+.fab-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  background: #ffbb96;
+  color: #ad2102;
+  cursor: pointer;
+  &:hover {
+    background: #f3b08c;
+  }
+}
+
+.ant-input {
+  padding: 5px 10px;
+}
