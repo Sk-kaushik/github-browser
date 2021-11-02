@@ -28,7 +28,6 @@ export const RootContextProvider = (props) => {
         }
       })
       .then((data) => {
-        console.log(data);
         setRepoList(data);
         setLoading(false);
       })
